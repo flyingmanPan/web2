@@ -1,0 +1,131 @@
+
+body
+{
+    background-image: url(http://211.159.187.254/homework2/background.png) ;
+    background-repeat: repeat;
+    font-size: 8pt;
+    font-family: "Verdana","Tahoma","sans-serif";
+    margin: 0;
+}
+.banner
+{
+    background-image: url(http://211.159.187.254/homework2/bannerbackground.png);
+    background-repeat: repeat-x;
+    height: 50px;
+    background-size: contain;
+    text-align: center;
+}
+.mainpage
+{
+    border: 4px solid gray;
+    width:800px;
+    margin: 0 auto;
+}
+h1
+{
+    font: bold 24pt Tahoma;
+    text-align: center;
+}
+.rightpart
+{
+    width: 250px;
+    float: right;
+    background-color: #A2B964;
+    font-size: 8pt;
+    font-family: "Arial","sans-serif";
+    clear: right;
+}
+.rightpart dl
+{
+    margin:10px;
+}
+.rightpart dt
+{
+    font: bold 8pt black;
+}
+.rightpart dd
+{
+    margin-bottom: 1em;
+}
+
+
+.bg
+{
+    background-image: url(http://211.159.187.254/homework2/rottenbackground.png);
+    background-repeat: repeat-x;
+    height: 83px;
+}
+.bg img
+{
+    vertical-align: bottom;
+    float:left;
+}
+#tt
+{
+    font: bold 48pt red;
+    color: red;
+}
+#rt
+{
+    font: 8pt white;
+    color: white;
+}
+/*--------------*/
+.critical
+{
+    width: 550px;
+    clear: left;
+    overflow: hidden;
+}
+.columnleft
+{
+    float:left;
+    width: 47%;
+    margin-left: 2%;
+}
+.columnright
+{
+    float:right;
+    width: 47%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.allborder
+{
+    border: 2px solid grey;
+    font: bold 8pt black;
+    background-color: #E1D697;
+    padding: 8px;
+    overflow: hidden;
+
+}
+.allborder img
+{
+    float: left;
+    margin-right: 5px;
+}
+.quoter
+{
+    overflow: hidden;
+    margin-bottom: 3em;
+}
+.quoterfont
+{
+    font-style: italic;
+}
+.quoter img
+{
+    float: left;
+    margin: 5px;
+}
+/*----------------------*/
+
+.pages
+{
+    clear: right;
+    text-align: center;
+    background-color: #A2B964;
+    margin: 0;
+
+    padding: 5px;
+}
